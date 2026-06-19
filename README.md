@@ -58,6 +58,7 @@ You need also a Browser to read the Profile-file that will be generated.
 ### 2. Load your_raw_data.csv in order data
 
 Open config.json and fixe your csv-file:
+
         ```JSON
         {
             "input_file": "data/your_raw_data.csv",

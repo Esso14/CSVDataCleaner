@@ -1,0 +1,6 @@
+pandas
+os
+logging
+ydata_profiling
+pathlib
+json
