@@ -1,0 +1,7 @@
+{
+  "input_file": "data/my_raw_data.csv",
+  "cleaned_file": "data/cleaned_data.csv",
+
+  "report_input_file": "data/report_before_cleaning.html",
+  "report_cleaned_file": "data/report_after_cleaning.html"
+}
