@@ -41,6 +41,7 @@ def main():
     # 5. Export clean result
     cleaner.export_csv(cfg.CLEANED_FILE, sep=";")
 
+    logger.info("\n" + "="*60)
 
 if __name__ == '__main__':
     main()
