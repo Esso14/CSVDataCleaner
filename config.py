@@ -6,12 +6,17 @@ from logging.config import fileConfig
 
 os.chdir(Path(__file__).parent)
 
-#Load configuration
+# 1. Create order "logs" if noch exist"
+os.makedirs("logs", exist_ok=True)
+
+#2. Load configuration
 fileConfig("config/logging.ini")
 
 logger = logging.getLogger()  # from root
 
-logger.info("CSV-DataCleaner configuration is started ...")
+logger.info("\n" + "="*60)
+logger.info("CSV-DataCleaner configuration is started...")
+
 
 with open("config/config.json", mode="r", encoding="utf-8") as file:
     config_file = json.load(file)
