@@ -1,0 +1,16 @@
+ Ignore cache directories       
+__pycache__/
+
+# Ignore compiled Python files
+*.pyc
+
+.streamlit/
+
+# Ignore sensitive configuration files and genereted data
+.env
+data/
+
+# Ignore log files
+logs/
+
+.DS_Store
